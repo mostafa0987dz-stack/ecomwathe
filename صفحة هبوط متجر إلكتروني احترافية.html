@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ساعة Ultra Max Pro الذكية | العرض الحصري</title>
+    
+    <!-- Google Fonts: Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#f97316',
+                            600: '#ea580c',
+                            700: '#c2410c',
+                            900: '#7c2d12',
+                        },
+                        dark: {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155'
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-short': 'bounce 1s infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #f97316;
+            border-radius: 4px;
+        }
+        
+        /* Glassmorphism utility */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white pb-16 md:pb-0">
+
+    <!-- Announcement Bar -->
+    <div class="bg-gradient-to-r from-brand-600 to-amber-500 text-white text-xs md:text-sm py-2 px-4 text-center font-bold tracking-wide shadow-md">
+        <i class="fa-solid fa-fire mr-1 animate-bounce"></i> عرض خاص لفترة محدودة: خصم 45% + توصيل مجاني اليوم فقط!
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-40 bg-dark-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-amber-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-brand-500/20">
+                    S
+                </div>
+                <span class="text-xl font-black tracking-tight text-white">ستور<span class="text-brand-500">لاين</span></span>
+            </div>
+            
+            <a href="#order-form" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-bold px-5 py-2.5 rounded-full transition duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-brand-500/25">
+                <i class="fa-solid fa-shopping-bag"></i>
+                <span>اطلب الآن</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden pt-8 pb-16 lg:pt-16 lg:pb-24">
+        <!-- Background Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Hero Content -->
+                <div class="text-center lg:text-right space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-500 text-xs md:text-sm font-semibold">
+                        <i class="fa-solid fa-crown text-amber-400"></i>
+                        <span>الساعة الذكية الأكثر مبيعاً لعام 2026</span>
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+                        استمتع بالفخامة والذكاء الفائق مع <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-amber-400">Ultra Max Pro</span>
+                    </h1>
+                    
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        تصميم تيتانيوم فاخر، شاشة AMOLED شديدة الوضوح، تتبع صحي متكامل، وبطارية تدوم حتى 7 أيام. الخيار الأمثل للمحترفين والرياضيين.
+                    </p>
+
+                    <!-- Price Tag -->
+                    <div class="flex items-center justify-center lg:justify-start gap-4 py-2">
+                        <span class="text-3xl sm:text-4xl font-extrabold text-white" id="display-price">8,900 د.ج</span>
+                        <span class="text-lg sm:text-xl text-slate-500 line-through font-bold">14,500 د.ج</span>
+                        <span class="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2.5 py-1 rounded-md">وفر 40%</span>
+                    </div>
+
+                    <!-- Countdown Timer -->
+                    <div class="bg-slate-800/80 border border-slate-700/80 p-4 rounded-2xl max-w-md mx-auto lg:mx-0">
+                        <p class="text-xs text-slate-400 mb-2 font-medium text-center">ينتهي العرض الترويجي والتوصيل المجاني خلال:</p>
+                        <div class="grid grid-cols-4 gap-2 text-center" dir="ltr">
+                            <div class="bg-slate-900 p-2 rounded-lg border border-slate-700">
+                                <span id="seconds" class="block text-xl font-extrabold text-brand-500">45</span>
+                                <span class="text-[10px] text-slate-400 uppercase">ثانية</span>
+                            </div>
+                            <div class="bg-slate-900 p-2 rounded-lg border border-slate-700">
+                                <span id="minutes" class="block text-xl font-extrabold text-white">24</span>
+                                <span class="text-[10px] text-slate-400 uppercase">دقيقة</span>
+                            </div>
+                            <div class="bg-slate-900 p-2 rounded-lg border border-slate-700">
+                                <span id="hours" class="block text-xl font-extrabold text-white">08</span>
+                                <span class="text-[10px] text-slate-400 uppercase">ساعة</span>
+                            </div>
+                            <div class="bg-slate-900 p-2 rounded-lg border border-slate-700">
+                                <span id="days" class="block text-xl font-extrabold text-white">01</span>
+                                <span class="text-[10px] text-slate-400 uppercase">يوم</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#order-form" class="w-full sm:w-auto bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-extrabold text-lg px-8 py-4 rounded-xl shadow-xl shadow-brand-500/25 transition duration-300 transform hover:-translate-y-1 text-center flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <span>اطلب الآن - الدفع عند الاستلام</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Micro Badges -->
+                    <div class="flex items-center justify-center lg:justify-start gap-6 pt-3 text-xs text-slate-400">
+                        <div class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+                            <span>ضمان سنة كاملة</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-box-open text-amber-400"></i>
+                            <span>معاينة قبل الدفع</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-rotate-left text-blue-400"></i>
+                            <span>إرجاع خلال 14 يوم</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hero Visual Showcase -->
+                <div class="relative flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <!-- Main Frame Background -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-brand-500/20 to-amber-500/20 rounded-3xl blur-2xl"></div>
+                        
+                        <!-- Main Product Image -->
+                        <div class="relative bg-dark-800 border border-slate-700 rounded-3xl p-6 shadow-2xl overflow-hidden group">
+                            <div class="absolute top-4 right-4 bg-emerald-500 text-slate-950 font-black text-xs px-3 py-1 rounded-full z-10 flex items-center gap-1">
+                                <span class="w-2 h-2 rounded-full bg-slate-950 animate-ping"></span>
+                                متوفر في المخزون
+                            </div>
+
+                            <img id="main-product-img" 
+                                 src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=1000&auto=format&fit=crop" 
+                                 alt="Smart Watch Ultra" 
+                                 class="w-full h-80 object-cover rounded-2xl transition duration-500 group-hover:scale-105">
+
+                            <!-- Interactive Color Variant Selector -->
+                            <div class="mt-6">
+                                <p class="text-xs font-bold text-slate-400 mb-3 text-right">اختر اللون المفصل:</p>
+                                <div class="flex items-center justify-center gap-3">
+                                    <button onclick="changeVariant('black', 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=1000&auto=format&fit=crop', 'أسود تيتانيوم')" 
+                                            class="variant-btn border-2 border-brand-500 p-1 rounded-xl bg-slate-900 transition flex items-center gap-2 px-3">
+                                        <span class="w-4 h-4 rounded-full bg-slate-900 border border-slate-700"></span>
+                                        <span class="text-xs font-semibold text-white">أسود ملكي</span>
+                                    </button>
+                                    <button onclick="changeVariant('orange', 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=1000&auto=format&fit=crop', 'برتقالي أوشين')" 
+                                            class="variant-btn border-2 border-transparent hover:border-slate-600 p-1 rounded-xl bg-slate-900 transition flex items-center gap-2 px-3">
+                                        <span class="w-4 h-4 rounded-full bg-orange-500"></span>
+                                        <span class="text-xs font-semibold text-slate-300">برتقالي رياضي</span>
+                                    </button>
+                                    <button onclick="changeVariant('silver', 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop', 'فضي ألبين')" 
+                                            class="variant-btn border-2 border-transparent hover:border-slate-600 p-1 rounded-xl bg-slate-900 transition flex items-center gap-2 px-3">
+                                        <span class="w-4 h-4 rounded-full bg-slate-300"></span>
+                                        <span class="text-xs font-semibold text-slate-300">فضي أنيق</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Value Propositions -->
+    <section class="py-12 bg-dark-800/50 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                
+                <div class="flex flex-col items-center text-center p-4 rounded-2xl bg-dark-900/40 border border-slate-800">
+                    <div class="w-12 h-12 rounded-full bg-brand-500/10 text-brand-500 flex items-center justify-center text-2xl mb-3">
+                        <i class="fa-solid fa-truck-ram"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-1">توصيل سريع ومجاني</h3>
+                    <p class="text-xs text-slate-400">التوصيل متوفر لجميع الولايات خلال 24-48 ساعة</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center p-4 rounded-2xl bg-dark-900/40 border border-slate-800">
+                    <div class="w-12 h-12 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mb-3">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-1">الدفع عند الاستلام</h3>
+                    <p class="text-xs text-slate-400">لا تدفع أي شيء حتى تستلم منتجك وتفحصه بنفسك</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center p-4 rounded-2xl bg-dark-900/40 border border-slate-800">
+                    <div class="w-12 h-12 rounded-full bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl mb-3">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-1">ضمان الجودة 100%</h3>
+                    <p class="text-xs text-slate-400">منتج أصلـي مع ضمان واستبدال مباشر</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center p-4 rounded-2xl bg-dark-900/40 border border-slate-800">
+                    <div class="w-12 h-12 rounded-full bg-blue-500/10 text-blue-400 flex items-center justify-center text-2xl mb-3">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-1">دعم متواصل</h3>
+                    <p class="text-xs text-slate-400">فريق خدمة العملاء جاهز للإجابة عن أسئلتكم 7/7</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Features Showcase -->
+    <section class="py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white mb-4">لماذا تُعتبر هذه الساعة خيارك الأفضل؟</h2>
+                <p class="text-slate-400">صُممت بأعلى معايير التكنولوجيا والرفاهية لتقديم تجربة يومية لا تُضاهى.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Feature 1 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">مراقبة صحية على مدار 24 ساعة</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        قياس معدل ضربات القلب، نسبة الأكسجين في الدم SPO2، وتتبع مراحل النوم بدقة متناهية مع تنبيهات عند وجود أي اضطراب.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">إجراء وتلقي المكالمات HD</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        مزودة بمكبر صوت وميكروفون نقي جداً، يمكنك الرد على المكالمات والإشعارات مباشرة من معصمك دون الحاجة لإخراج الهاتف.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">بطارية فائقة القوة</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        استمتع بتشغيل مستمر يصل إلى 7 أيام من الاستخدام العادي و15 يوماً في وضع توفير الطاقة مع خاصية الشحن السريع اللاسلكي.
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-person-running"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">أكثر من 100 وضع رياضي</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        تتبع خطواتك، السعرات الحرارية المحروقة، ومسافات الجري والسباحة مع دعم مقاومة الماء والغبار حسب المعيار العالمي.
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">شاشة AMOLED فائقة الوضوح</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        شاشة بحجم 2.02 إنش بألوان زاهية ودرجة سطوع عالية تضمن رؤية ممتازة حتى تحت أشعة الشمس المباشرة.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-dark-800 p-8 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300 relative group overflow-hidden">
+                    <div class="w-14 h-14 bg-gradient-to-tr from-brand-500 to-amber-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg shadow-brand-500/20">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">هيكل تيتانيوم متين</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        مصنوعة من سبيكة التيتانيوم المقاومة للصدمات والخدوش، مما يضمن لك مظهرًا رائعًا ومتانة يدوم طويلاً.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof & Customer Reviews -->
+    <section class="py-16 bg-dark-800/40 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <div class="flex items-center justify-center gap-1 text-amber-400 text-xl mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-white mb-2">آراء عملائنا الكرام</h2>
+                <p class="text-slate-400 text-sm">أكثر من 2,400 زبون يثقون في منتجاتنا في جميع أنحاء الوطن</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Review 1 -->
+                <div class="bg-dark-900 p-6 rounded-2xl border border-slate-800 relative space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" 
+                             alt="Customer Avatar" class="w-12 h-12 rounded-full object-cover border border-brand-500">
+                        <div>
+                            <h4 class="font-bold text-white text-sm">محمد العاصمي</h4>
+                            <span class="text-xs text-emerald-400 flex items-center gap-1">
+                                <i class="fa-solid fa-circle-check"></i> مشتري موثوق - الجزائر
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex text-amber-400 text-xs">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        "صراحة الساعة ما شاء الله! التوصيل كان سريع خلال 24 ساعة فقط للجزائر العاصمة. البطارية تطول بزاف والاتصال واضح جودة ممتازة مقارنة بالسعر."
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-dark-900 p-6 rounded-2xl border border-slate-800 relative space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" 
+                             alt="Customer Avatar" class="w-12 h-12 rounded-full object-cover border border-brand-500">
+                        <div>
+                            <h4 class="font-bold text-white text-sm">عبد الرزاق ب.</h4>
+                            <span class="text-xs text-emerald-400 flex items-center gap-1">
+                                <i class="fa-solid fa-circle-check"></i> مشتري موثوق - وهران
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex text-amber-400 text-xs">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        "الشاشة بزاف شابة وألوانها واضحة في الشمس، وتتبع التمارين الرياضية دقيق. شكراً لفريق الدعم على التعامل الراقي والدفع بعد المعاينة."
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-dark-900 p-6 rounded-2xl border border-slate-800 relative space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" 
+                             alt="Customer Avatar" class="w-12 h-12 rounded-full object-cover border border-brand-500">
+                        <div>
+                            <h4 class="font-bold text-white text-sm">كريم بن علي</h4>
+                            <span class="text-xs text-emerald-400 flex items-center gap-1">
+                                <i class="fa-solid fa-circle-check"></i> مشتري موثوق - قسنطينة
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex text-amber-400 text-xs">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        "شريت زوج ساعات لي ولأخي، المنتج وصل متغلف مليح ونفس الصورة تماماً. تجربة شراء ممتازة وأنصح بالتعامل معهم."
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Order Form (Express Checkout) Section -->
+    <section id="order-form" class="py-16 md:py-24 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="bg-dark-800 rounded-3xl border-2 border-brand-500/50 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+                <div class="absolute -top-12 -right-12 w-40 h-40 bg-brand-500/10 rounded-full blur-2xl"></div>
+
+                <div class="text-center max-w-xl mx-auto mb-8">
+                    <span class="bg-brand-500/20 text-brand-500 text-xs font-bold px-3 py-1 rounded-full border border-brand-500/30">
+                        الطلب المباشر
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-3 mb-2">أدخل معلوماتك للطلب الآن</h2>
+                    <p class="text-slate-400 text-sm">التوصيل سريع والدفع سلم واستلم عند باب منزلك</p>
+                </div>
+
+                <form id="checkoutForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                    
+                    <!-- Selected Color -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-300 mb-2">اختر لون الساعة المطلوب:</label>
+                        <div class="grid grid-cols-3 gap-3">
+                            <label class="cursor-pointer">
+                                <input type="radio" name="color_option" value="أسود تيتانيوم" checked onchange="updateFormColor('أسود تيتانيوم')" class="peer hidden">
+                                <div class="p-3 text-center rounded-xl border border-slate-700 bg-dark-900 peer-checked:border-brand-500 peer-checked:bg-brand-500/10 transition">
+                                    <span class="block text-xs font-bold text-white">أسود ملكي</span>
+                                </div>
+                            </label>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="color_option" value="برتقالي أوشين" onchange="updateFormColor('برتقالي أوشين')" class="peer hidden">
+                                <div class="p-3 text-center rounded-xl border border-slate-700 bg-dark-900 peer-checked:border-brand-500 peer-checked:bg-brand-500/10 transition">
+                                    <span class="block text-xs font-bold text-white">برتقالي رياضي</span>
+                                </div>
+                            </label>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="color_option" value="فضي ألبين" onchange="updateFormColor('فضي ألبين')" class="peer hidden">
+                                <div class="p-3 text-center rounded-xl border border-slate-700 bg-dark-900 peer-checked:border-brand-500 peer-checked:bg-brand-500/10 transition">
+                                    <span class="block text-xs font-bold text-white">فضي أنيق</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Customer Info Inputs -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="fullname" class="block text-xs font-bold text-slate-300 mb-2">الاسم الكامل *</label>
+                            <div class="relative">
+                                <input type="text" id="fullname" required placeholder="مثال: أحمد محمد" 
+                                       class="w-full bg-dark-900 border border-slate-700 rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm">
+                                <i class="fa-solid fa-user absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-xs font-bold text-slate-300 mb-2">رقم الهاتف *</label>
+                            <div class="relative">
+                                <input type="tel" id="phone" required placeholder="06XX XX XX XX" 
+                                       class="w-full bg-dark-900 border border-slate-700 rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm text-right" dir="ltr">
+                                <i class="fa-solid fa-phone absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="wilaya" class="block text-xs font-bold text-slate-300 mb-2">الولاية *</label>
+                            <select id="wilaya" required onchange="calculateTotal()" class="w-full bg-dark-900 border border-slate-700 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 text-sm">
+                                <option value="">اختر الولاية...</option>
+                                <option value="16">16 - الجزائر العاصمة</option>
+                                <option value="31">31 - وهران</option>
+                                <option value="25">25 - قسنطينة</option>
+                                <option value="19">19 - سطيف</option>
+                                <option value="09">09 - البليدة</option>
+                                <option value="35">35 - بومرداس</option>
+                                <option value="other">باقي الولايات الأخرى</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="address" class="block text-xs font-bold text-slate-300 mb-2">العنوان / البلدية *</label>
+                            <div class="relative">
+                                <input type="text" id="address" required placeholder="البلدية والعنوان الكامل" 
+                                       class="w-full bg-dark-900 border border-slate-700 rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm">
+                                <i class="fa-solid fa-location-dot absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quantity Counter -->
+                    <div class="flex items-center justify-between p-4 bg-dark-900 rounded-xl border border-slate-700">
+                        <div>
+                            <span class="block text-sm font-bold text-white">الكمية:</span>
+                            <span class="text-xs text-slate-400">احصل على خصم إضافي عند طلب قطعتين!</span>
+                        </div>
+                        <div class="flex items-center gap-3 dir-ltr">
+                            <button type="button" onclick="adjustQty(-1)" class="w-9 h-9 bg-slate-800 rounded-lg flex items-center justify-center text-white font-bold hover:bg-slate-700 text-lg">-</button>
+                            <span id="qty-display" class="font-extrabold text-white text-lg w-6 text-center">1</span>
+                            <button type="button" onclick="adjustQty(1)" class="w-9 h-9 bg-slate-800 rounded-lg flex items-center justify-center text-white font-bold hover:bg-slate-700 text-lg">+</button>
+                        </div>
+                    </div>
+
+                    <!-- Price Order Summary -->
+                    <div class="border-t border-slate-700/80 pt-4 space-y-2 text-sm">
+                        <div class="flex justify-between text-slate-400">
+                            <span>سعر المنتج:</span>
+                            <span id="subtotal-price" class="font-bold text-white">8,900 د.ج</span>
+                        </div>
+                        <div class="flex justify-between text-slate-400">
+                            <span>تكلفة التوصيل:</span>
+                            <span id="shipping-price" class="font-bold text-emerald-400">مجانـي</span>
+                        </div>
+                        <div class="flex justify-between text-white font-extrabold text-xl pt-2 border-t border-slate-700">
+                            <span>المبلغ الإجمالي:</span>
+                            <span id="total-price" class="text-brand-500">8,900 د.ج</span>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-black text-xl py-4 rounded-xl shadow-xl shadow-brand-500/30 transition duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>تأكيد الطلب الآن</span>
+                    </button>
+                    
+                    <p class="text-center text-xs text-slate-500">
+                        <i class="fa-solid fa-lock ml-1"></i> جميع معلوماتك مشفرة وآمنة 100%. سيتم الاتصال بك لتأكيد الطلب قبل الشحن.
+                    </p>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Accordion FAQ Section -->
+    <section class="py-16 bg-dark-800/30 border-t border-slate-800">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white mb-2">الأسئلة الشائعة</h2>
+                <p class="text-slate-400 text-sm">إليك أهم الأسئلة التي قد تخطر ببالك قبل الشراء</p>
+            </div>
+
+            <div class="space-y-4">
+                
+                <!-- FAQ Item 1 -->
+                <div class="bg-dark-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full px-6 py-4 text-right font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>كيف يتم التسليم ومتى أستلم طلبي؟</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-4 text-slate-400 text-sm hidden leading-relaxed border-t border-slate-800/50 pt-3">
+                        يتم الشحن والتوصيل عبر شركائنا لخدمات التوصيل السريع. يستغرق التوصيل عادةً من 24 إلى 48 ساعة حسب ولايتك.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-dark-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full px-6 py-4 text-right font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>هل يمكنني معاينة الساعة قبل دفع الثمن؟</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-4 text-slate-400 text-sm hidden leading-relaxed border-t border-slate-800/50 pt-3">
+                        نعم بكل تأكيد! يمكنك فتح الطرد ومعاينة المنتج والتأكد من جودته بنفسك قبل تسليم المبلغ لموزع الشحن.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-dark-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full px-6 py-4 text-right font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>ما هي فترة الضمان المتاحة؟</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-4 text-slate-400 text-sm hidden leading-relaxed border-t border-slate-800/50 pt-3">
+                        نقدم ضماناً شاملاً لمدة سنة كاملة ضد عيوب التصنيع، بالإضافة إلى إمكانية الاستبدال أو الإرجاع خلال 14 يوماً.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-dark-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full px-6 py-4 text-right font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>هل الساعة تتوافق مع هواتف أندرويد وآيفون؟</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-4 text-slate-400 text-sm hidden leading-relaxed border-t border-slate-800/50 pt-3">
+                        نعم، الساعة متوافقة 100% مع جميع أجهزة Android و iOS عبر تطبيق خاص يسهل تحميله مجاناً.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-900 py-8 border-t border-slate-800 text-center text-slate-500 text-xs">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="mb-2">جميع الحقوق محفوظة © 2026 ستورلاين للتجارة الإلكترونية</p>
+            <p>شراء آمن | توصيل سريع | خدمة عملاء متميزة</p>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Bottom Bar CTA -->
+    <div id="sticky-bar" class="fixed bottom-0 inset-x-0 z-50 bg-dark-900/95 border-t border-slate-800 p-3 backdrop-blur-md transform translate-y-full transition-transform duration-300 md:hidden">
+        <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
+            <div>
+                <span class="block text-xs text-slate-400">السعر الحالي:</span>
+                <span class="text-lg font-black text-brand-500">8,900 د.ج</span>
+            </div>
+            <a href="#order-form" class="flex-1 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-center font-bold py-3 rounded-xl shadow-lg shadow-brand-500/30 text-sm">
+                اطلب الآن - اضغط هنا
+            </a>
+        </div>
+    </div>
+
+    <!-- Success Order Modal Notification -->
+    <div id="successModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm hidden p-4">
+        <div class="bg-dark-800 border border-slate-700 rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 shadow-2xl animate-fade-in">
+            <div class="w-16 h-16 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center text-3xl mx-auto">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-white">تم استقبال طلبك بنجاح!</h3>
+            <p class="text-slate-300 text-sm">
+                شكراً لثقتك بنا. سيقوم فريق خدمة العملاء بالتواصل معك عبر الهاتف خلال ساعات قليلة لتأكيد طلبك وتفاصيل التوصيل.
+            </p>
+            <button onclick="closeModal()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3 rounded-xl transition">
+                حسناً، إغلاق
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        // State variables
+        let unitPrice = 8900;
+        let currentQty = 1;
+        let selectedColor = "أسود تيتانيوم";
+
+        // Dynamic Product Color Switching
+        function changeVariant(colorKey, imgUrl, colorName) {
+            document.getElementById('main-product-img').src = imgUrl;
+            selectedColor = colorName;
+
+            // Highlight border on selected color btn
+            const buttons = document.querySelectorAll('.variant-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('border-brand-500');
+                btn.classList.add('border-transparent');
+            });
+
+            event.currentTarget.classList.remove('border-transparent');
+            event.currentTarget.classList.add('border-brand-500');
+
+            // Synchronize with order form
+            const radio = document.querySelector(`input[name="color_option"][value="${colorName}"]`);
+            if (radio) radio.checked = true;
+        }
+
+        function updateFormColor(colorName) {
+            selectedColor = colorName;
+        }
+
+        // Quantity counter adjustment
+        function adjustQty(amount) {
+            if (currentQty + amount >= 1) {
+                currentQty += amount;
+                document.getElementById('qty-display').innerText = currentQty;
+                calculateTotal();
+            }
+        }
+
+        // Calculate and format total price
+        function calculateTotal() {
+            let total = unitPrice * currentQty;
+            
+            // Format numbers to Algerian Dinar standard format
+            const formattedTotal = total.toLocaleString('ar-DZ') + ' د.ج';
+            const formattedSubtotal = (unitPrice * currentQty).toLocaleString('ar-DZ') + ' د.ج';
+
+            document.getElementById('subtotal-price').innerText = formattedSubtotal;
+            document.getElementById('total-price').innerText = formattedTotal;
+        }
+
+        // Accordion functionality for FAQ
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Form submission handling
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const modal = document.getElementById('successModal');
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.classList.add('hidden');
+            document.getElementById('checkoutForm').reset();
+            currentQty = 1;
+            document.getElementById('qty-display').innerText = '1';
+            calculateTotal();
+        }
+
+        // Countdown Timer Logic
+        function startCountdown() {
+            let duration = 24 * 3600 + 45 * 60; // 24 hours 45 mins countdown
+            const timer = setInterval(() => {
+                let hours = Math.floor((duration % (3600 * 24)) / 3600);
+                let minutes = Math.floor((duration % 3600) / 60);
+                let seconds = Math.floor(duration % 60);
+
+                document.getElementById('days').innerText = '01';
+                document.getElementById('hours').innerText = hours < 10 ? '0' + hours : hours;
+                document.getElementById('minutes').innerText = minutes < 10 ? '0' + minutes : minutes;
+                document.getElementById('seconds').innerText = seconds < 10 ? '0' + seconds : seconds;
+
+                if (--duration < 0) {
+                    clearInterval(timer);
+                }
+            }, 1000);
+        }
+
+        // Floating Sticky Bar trigger on scroll for mobile screens
+        window.addEventListener('scroll', () => {
+            const stickyBar = document.getElementById('sticky-bar');
+            if (window.scrollY > 400) {
+                stickyBar.classList.remove('translate-y-full');
+            } else {
+                stickyBar.classList.add('translate-y-full');
+            }
+        });
+
+        // Initialize script on window load
+        window.onload = function() {
+            startCountdown();
+            calculateTotal();
+        };
+    </script>
+</body>
+</html>
